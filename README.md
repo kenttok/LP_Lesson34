@@ -5,11 +5,11 @@
 а) ```iperf3 -c 10.10.10.1 -t 40 -i 5```
  - tun 
  
- ![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/main/4.png)
+ ![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/master/4.png)
  
  - tap
 
-![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/main/3.png)
+![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/master/3.png)
 
 В режиме ```tun``` отправлено больше данных.
 
@@ -21,7 +21,7 @@
 
 На стороне сервера проверяем что порт 1207 слушается
 
- ![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/main/1.png)
+ ![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/master/1.png)
 
 На стороне клиента выполняем команды:
 
@@ -42,4 +42,4 @@ openvpn --config ./client.conf &
 
 После старта проверяем доступ.
 
-![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/main/2.png)
+![Image_alt](https://github.com/kenttok/LP_Lesson34/blob/master/2.png)
